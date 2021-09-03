@@ -5,12 +5,12 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="/css/site.css">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
   </head>
 <body>
 	<header class="row">
 		<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-			<img src="images/logo.png" alt="book club logo" width = 100px>
+			<img src="images/logo.png" alt="book club logo" width = 100px id="logo" class="img-responsive">
 		</div>
 		<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
 			<h1>Bloomington Book Club</h1>
@@ -30,11 +30,11 @@
 </div>
 </div>
 </nav>
-  <main>
+  <main class="row">
     <!-- One page includes a table of books. Table MUST have at the following columns (title, author(s), year published, publisher, page count, MSRP) and at four to eight rows of data. -->
 
-    <h3>See the Bloomington Book Club's recently read books and suggest future books to read</h3>
-    <table class="table table-striped table-hover table-bordered table-condensed">
+    <div class="col-lg-12 col-md-12 col-sm-12"><h3>See the Bloomington Book Club's recently read books and ratings:</h3></div>
+    <div class="col-lg-12 col-md-12 col-sm-12"><table class="table table-striped table-bordered table-condensed">
         <thead>
           <tr>
             <th class = "text-center">Title</th>
@@ -86,8 +86,9 @@
         </tbody>
         <tfoot>
         </tfoot>
-      </table>
+      </table></div>
 
+      <div class="col-lg-12 col-md-12 col-sm-12">
       <form action="confirmation.html" method="POST">
 			<h3>Have a book you think the club would love? Submit a suggestion:</h3>
         <label for="title">Book Title: </label>
@@ -113,9 +114,11 @@
         
         <input type="submit" name = "submit" id = "submit" value = "Submit" class="button">
 
-      </form>
+      </form></div>
   </main>
-  <footer>
+  <footer class="row">
+        Btown Book Club | Phone: 800-555-1234 | btownbc@gmail.com |
+        Logo Source: https://99designs.com/logo-design/contests/book-club-logo-contest-826168
   </footer>
 </body>
 </html>

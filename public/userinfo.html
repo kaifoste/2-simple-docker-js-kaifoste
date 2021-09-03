@@ -5,12 +5,12 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="/css/site.css">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
   </head>
 <body>
 	<header class="row">
 		<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-			<img src="images/logo.png" alt="book club logo" width = 100px>
+			<img src="images/logo.png" alt="book club logo" width = 100px id="logo" class="img-responsive">
 		</div>
 		<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
 			<h1>Bloomington Book Club</h1>
@@ -30,22 +30,24 @@
 </div>
 </div>
 </nav>
-  <main>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-    <img src="images/Ted.jpg" alt="profile of man" class="img-responsive"> <p id="source">Image Source: https://randomuser.me/<p>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+  <main class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
+    <div id="userinfo" class= "col-lg-4 col-md-4 col-sm-4 col-xs-4">
+    <a target="_blank" href = "images/Ted.jpg"><img src="images/Ted.jpg" alt="profile of man" class="img-responsive center"></a><p id="source">Image Source: https://randomuser.me/<p>
+    <div >
     <h4>Name: Ted Horton</h4>
     <h4>Address: 5716 Mcclellan Rd</h4>
     <h4>Birthday: 2/5/1998</h4>
     <h4>Age: 23</h4>
     <h4>Email:<a href="mailto:ted.horton@example.com"> ted.horton@example.com</a></h4> 
     <!-- https://css-tricks.com/snippets/html/mailto-links/ -->
-		<input type="button" class = "btn btn-warning" value="Log out">
+		<input type="button" class = "btn btn-success" value="Log out">
     </div>  
+    <div "col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
   </main>
-  <footer>
-    Logo Source: https://99designs.com/logo-design/contests/book-club-logo-contest-826168
+  <footer class="row">
+        Btown Book Club | Phone: 800-555-1234 | btownbc@gmail.com |
+        Logo Source: https://99designs.com/logo-design/contests/book-club-logo-contest-826168
   </footer>
 </body>
 </html>
