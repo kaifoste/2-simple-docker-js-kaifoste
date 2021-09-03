@@ -2,36 +2,45 @@
 <html>
   <head>
     <title>Bloomington Book Club</title>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-      <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
   </head>
 <body>
 	<header class="row">
-		<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+		<div class="col-lg-2 col-md-3 col-sm-4 col-xs-2">
 			<img src="images/logo.png" alt="book club logo" width = 100px id="logo" class="img-responsive">
 		</div>
-		<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+		<div class="col-lg-10 col-md-9 col-sm-8 col-xs-10">
 			<h1>Bloomington Book Club</h1>
 		</div>
 	</header>
-  <nav class="row navbar navbar-default">
-    <div class="navbar-header">
-        <button class="navbar-toggle" data-toggle="collapse" data-target="#sitenav">
-    <span class = "icon-bar"></span><span class = "icon-bar"></span><span class = "icon-bar"></span>
+<!-- https://getbootstrap.com/docs/4.5/components/navbar/ -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
   </button>
-<div class = "collapse navbar-collapse" id="sitenav">
-  <ul class = "nav navbar-nav">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="userinfo.html">Account Info</a></li>
-    <li><a href="books.html" >Book List</a></li>
-  </ul>
-</div>
-</div>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="index.html">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="userinfo.html">View Account</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="books.html">Book List</a>
+      </li>
+    </ul>
+  </div>
 </nav>
+
+
+
   <main class="row">
-  <div class="alert alert-success col-lg-12 col-md-12 col-sm-12 col-xs-12">The next club meeting will be September 28th at 8pm<a href="" class="close" data-dismiss="alert">&times;</a></div>
+  <div class="alert alert-success col-lg-12 col-md-12 col-sm-12 col-xs-12" role="alert">The next club meeting will be September 28th at 8pm<a href="" class="close" data-dismiss="alert">&times;</a></div>
 
   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><h3>Welcome to the Bloomington Book Club!</h3> <p>The Bloomington Book Club started in 2012 with a couple of friends—Guinevere de la Mare and Laura Gluhanich—reading in companionable silence at our neighborhood bar in San Francisco. We loved books, and reading with friends, but most of our previous attempts at book clubs had fizzled out.</p>
 
