@@ -109,7 +109,7 @@ h3 {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bolder
 }
-/* 
+
 th[role=columnheader]:not(.no-sort) {
 	cursor: pointer;
 }
@@ -142,4 +142,4 @@ th[aria-sort]:not(.no-sort):after {
 th[role=columnheader]:not(.no-sort):hover:after {
 	visibility: visible;
 	opacity: 1;
-} */
+}
